@@ -1,0 +1,9 @@
+set(CMAKE_CXX_STANDARD 11)
+
+cmake_minimum_required(VERSION 3.0)
+
+project(Tamrin)
+
+add_executable(app src/main.cpp src/user.cpp src/bank.cpp src/transaction.cpp src/loan.cpp)
+
+include_directories(include)
